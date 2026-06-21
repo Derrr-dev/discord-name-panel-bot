@@ -2,18 +2,11 @@
   "name": "discord-name-panel-bot",
   "version": "1.0.0",
   "description": "Discord bot panel ganti nickname dengan tombol interaktif",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.18.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0",
-    "ts-node": "^10.9.2"
   }
 }
